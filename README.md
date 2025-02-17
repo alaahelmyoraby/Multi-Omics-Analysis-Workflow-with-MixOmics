@@ -269,7 +269,5 @@ plotVar(diablo.result, cutoff = 0.85, title = "DIABLO Variable Plot", cex = c(6,
 
 ---
 
-## Conclusion
-
-This section demonstrates various advanced techniques for analyzing and visualizing multi-omics data, including performance evaluation, dimensionality reduction, integration of different datasets, and feature selection. These methods provide insights into the underlying structure of the data and help identify key features for further investigation.
+## Thanks!
 ---
