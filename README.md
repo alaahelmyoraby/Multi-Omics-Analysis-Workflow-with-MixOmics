@@ -3,6 +3,7 @@
 # Data Processing and Analysis in R
 
 This script processes and analyzes methylation, gene expression, and phenotype data using various R packages. It performs data cleaning, filtering, and normalization, followed by integration and visualization of the results.
+Link to data: https://drive.google.com/drive/folders/1EaPxlAnxY9CmueNRS-Ru3m18xrFzTDqg?usp=drive_link
 
 ## Required Libraries
 
