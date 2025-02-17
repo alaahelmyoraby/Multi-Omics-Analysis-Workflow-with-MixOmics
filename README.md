@@ -1,7 +1,4 @@
 # Multi-Omics-Analysis-Workflow-with-MixOmics
-Here’s your `README.md` file with comments (hashed notes) added before and beside each code section:
-
----
 
 # Data Processing and Analysis in R
 
