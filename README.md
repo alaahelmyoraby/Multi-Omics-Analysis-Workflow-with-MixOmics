@@ -169,6 +169,11 @@ This section of the analysis focuses on various statistical and machine learning
 To evaluate the model's performance, we perform cross-validation using the `perf()` function with 5-fold validation and 10 repeats. This process helps assess how well the PLS-DA model generalizes to unseen data.
 
 ```R
+# Prepare phenotype groups for analysis
+groups <- all.phynotype$sample_type  # Extract sample type as groups for analysis
+t_all.meth_filtered=t(all.meth_filtered)  # Transpose methylation data
+t_all.gene_filtered=t(all.gene_filtered)  # Transpose gene expression data
+
 # Perform PLS-DA with cross-validation
 X <- cbind(t_all.meth_filtered, t_all.gene_filtered)  # Combine methylation and gene data
 Y <- as.factor(groups)  # Convert groups to a factor for classification
