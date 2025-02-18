@@ -169,6 +169,8 @@ This section of the analysis focuses on various statistical and machine learning
 To evaluate the model's performance, we perform cross-validation using the `perf()` function with 5-fold validation and 10 repeats. This process helps assess how well the PLS-DA model generalizes to unseen data.
 
 ```R
+# Fit PLS-DA model with 10 components
+plsda_model <- plsda(X, Y, ncomp = 10) 
 # Set seed for reproducibility
 set.seed(30)
 
